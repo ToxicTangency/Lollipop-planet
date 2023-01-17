@@ -1,0 +1,146 @@
+.cartPage{
+    margin-top: 90px;
+    margin-bottom: 40px;
+}
+.cartList{
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+}
+.cartItem{
+    display: flex;
+    background: #FFFFFF;
+    border-radius: 14px;
+    img{
+        margin-right: 44px;
+        border-radius: 13px;
+    }
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: auto;
+}
+.name{
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    color: #000000;
+    margin-bottom: 10px;
+    width: 180px;
+}
+.type{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
+    color: #000000;
+    opacity: 0.6;
+}
+.quantityWrapper{
+    border-right: 2px solid #CBC3E4;
+    border-left: 2px solid #CBC3E4;
+    align-items: center;
+    display: flex;
+    padding: 0px 60px;
+    margin: 30px 0;
+}
+.quantity{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    margin-left: auto;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    color: #000000;
+    width: 100px;
+    span{
+        cursor: pointer;
+        color: #F948A9;
+        &:last-child{
+            color: #73CDFF;
+        }
+    }
+}
+.remove{
+    cursor: pointer;
+    color: #F948A9;
+    margin: auto;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+}
+.price{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 42px;
+    text-align: right;
+    color: #000000;
+}
+
+.total{
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-end;
+    .price{
+        margin-right: 80px;
+    }
+}
+
+.checkout{
+    margin-top: 40px;
+}
+.title{
+    margin-bottom: 25px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    color: #000000;
+}
+.form{
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    
+    width: 100%;
+
+}
+.row{
+    display: flex;
+    gap: 25px;
+}
+.field{
+    background: #FFFFFF;
+    border: 2px solid #CBC3E4;
+    border-radius: 14px;
+    padding: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #0F0000;
+    opacity: 0.6;
+    width: 100%;
+}
+.payBtn{
+    background: #A2F3EC;
+    border-radius: 14px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #813494;
+    width: 100%;
+    padding: 20px;
+    border: none;
+}

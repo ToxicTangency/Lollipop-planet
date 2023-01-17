@@ -1,0 +1,47 @@
+.testimonials{
+    padding-top: 100px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    background:url('/ice-cream-back.png') left bottom no-repeat, 
+    url('/stars-back.png') right bottom no-repeat;
+    background-size: contain;
+    
+}
+.card{
+    width: 665px;
+    height: 375px;
+    border-radius: 13px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.03);
+    padding: 60px 75px 40px 75px;
+}
+.person{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.avatar{
+    border-radius: 50%;
+}
+.name{
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    color: #000000;
+}
+.text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.7;
+    margin-bottom: 45px;
+}
+.navigation{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+}

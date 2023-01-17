@@ -1,0 +1,132 @@
+.productPage{
+    margin-top: 45px;
+    margin-bottom: 80px;
+}
+.product{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-bottom: 45px;
+}
+.image{
+    img{
+        border-radius: 13px;
+    }
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    align-items: flex-start;
+    text-align: left;
+}
+.name{
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    color: #000000;
+    margin-bottom: 40px;
+}
+.description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.7;
+    margin-bottom: 100px;
+}
+.price{
+    margin-bottom: 40px;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 31px;
+    color: #000000;
+}
+
+.tabs{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 0;
+    margin-bottom: 30px;
+}
+.tab{
+    padding: 30px 0px;
+    width: 100%;
+    background-color: #A0F1EA;
+    &:nth-child(2){
+        background: #FF9ED7;
+    }
+    
+}
+.title{
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    text-align: center;
+    color: #000000;
+    opacity: 0.7;
+}
+.tabContent{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 0;
+    margin-bottom: 30px;
+    div{
+        width: 50%;
+        text-align: center;
+        padding:20px;
+    }
+}
+.addToCart{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 15px 40px;
+    border-radius: 5px;
+    background: #A2F3EC;
+    border: none;
+    font-weight: 700;
+    color: #813494;
+    font-size: 16px;
+    transition: .3s;
+    div{
+        margin-left: 11px;
+    }
+    span{
+        font-size: 10px;
+        color: #F240A1;
+        align-self: baseline;
+        margin-left: 5px;
+        display: flex;
+    }
+    &:hover{
+        color: #A2F3EC;
+        background: #813494;
+    }
+}
+.quantity{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    margin-left: auto;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    color: #000000;
+    width: 100px;
+    span{
+        cursor: pointer;
+        color: #F948A9;
+        &:last-child{
+            color: #73CDFF;
+        }
+    }
+}
+.inCart{
+    display: flex;
+    gap: 30px;
+
+}
