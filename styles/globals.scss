@@ -81,6 +81,7 @@ body {
 		}
 		@if ($containerPadding>0) {
 			padding: 0 rem(math.div($containerPadding, 2));
+			padding: 15px;
 		}
 	}
 } @else {

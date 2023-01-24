@@ -15,12 +15,23 @@
         margin-right: 44px;
         border-radius: 13px;
     }
+    @media (max-width:767px) {
+        flex-wrap: wrap;
+        gap: 15px;
+        img{
+            margin: auto;
+        }
+    }
 }
 .info{
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-right: auto;
+    @media (max-width:767px) {
+        margin: auto;
+        text-align: center;
+    }
 }
 .name{
     font-weight: 700;
@@ -71,6 +82,11 @@
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
+    @media (max-width:767px) {
+        font-size: 31px;
+        line-height: 31px;
+        text-transform: uppercase;
+    }
 }
 .price{
     display: flex;

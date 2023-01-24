@@ -24,13 +24,7 @@ export default function Feedback() {
         <div className={styles.feedbackContent}>
           <div className={styles.title}>
             Остались вопросы
-            <span
-              style={{
-                position: 'absolute',
-                marginLeft: '5px',
-              }}>
-              ?
-            </span>
+            <span className={styles.floatSign}>?</span>
             <br /> напишите нам{' '}
           </div>
           <div className={styles.form}>

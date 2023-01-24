@@ -1,5 +1,6 @@
 import styles from './CartPage.module.scss';
 import Image from 'next/image';
+import Link from 'next/link';
 import { useDispatch } from 'react-redux';
 import {
   incrementQuantity,
@@ -11,9 +12,13 @@ export default function CartItem({ item }) {
   const dispatch = useDispatch();
   return (
     <div className={styles.cartItem}>
-      <Image src={item.image.url} alt={item.name} width={237} height={177} />
+      <Link href={`/products/${item.slug}`}>
+        <Image src={item.image.url} alt={item.name} width={237} height={177} />
+      </Link>
       <div className={styles.info}>
-        <div className={styles.name}>{item.name}</div>
+        <div className={styles.name}>
+          <Link href={`/products/${item.slug}`}>{item.name}</Link>
+        </div>
         <div className={styles.type}>{item.category.title}</div>
       </div>
       <div className={styles.quantityWrapper}>

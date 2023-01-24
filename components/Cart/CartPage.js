@@ -30,7 +30,7 @@ export default function CartPage() {
           </div>
 
           <div className={styles.total}>
-            <div className={styles.price}>{total} ₽</div>
+            <div className={styles.price}>Итого: {total} ₽</div>
           </div>
 
           <OrderForm total={total} order={cart} />
